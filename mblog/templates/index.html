@@ -11,11 +11,11 @@
     <hr>
     {% for post in posts  %}
         <p style='font-family: 微軟正黑體; font-size: 16pt; font-wight: bold;'>
-	    {{ post.title }}
+	<a href='/post/{{post.slug}}'>{{ post.title }}</a>
 	</p>
-	<p style='font-family: 微軟正黑體; fount-size: 10pt; letter-spacing: 1pt;'>
+	<!-- <p style='font-family: 微軟正黑體; fount-size: 10pt; letter-spacing: 1pt;'>
 	    {{ post.body }}
-	</p>
+	</p> -->
     {% endfor %}
     <hr>
     <h3>現在時刻：{{ now }}</h3>
