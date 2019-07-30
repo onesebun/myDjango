@@ -25,7 +25,7 @@ SECRET_KEY = 'ewc_hr$w#)g0i!t$p&%p6211h(e)_ea6&g6)8$6u^8qkxeulvh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.171']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

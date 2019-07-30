@@ -7,10 +7,10 @@ from django.http import HttpResponse
 from django.shortcuts import redirect
 from datetime import datetime
 from .models import Post
-import sys
+# import sys
 
-reload(sys)
-sys.setdefaultencoding("utf-8")
+# reload(sys)
+# sys.setdefaultencoding("utf-8")
 
 # Create your views here.
 def homepage(request):
